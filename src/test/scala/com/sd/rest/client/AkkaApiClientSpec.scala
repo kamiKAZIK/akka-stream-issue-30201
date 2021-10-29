@@ -16,7 +16,7 @@ import org.scalatest.{Outcome, ParallelTestExecution}
 import java.util.UUID
 import scala.concurrent.Future
 
-final class AkkaMediaSparkApiClientSpec
+final class AkkaApiClientSpec
   extends FixtureAnyWordSpec
     with Matchers
     with ParallelTestExecution {
